@@ -1,0 +1,23 @@
+{
+  "name": "konfirm/iso_flag",
+  "version": "1.0.0",
+  "description": "Convert ISO3166 region codes to their unicode (emoji) flag",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Rogier Spieker",
+      "email": "rogier+iso_flag@konfirm.eu"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-mbstring": "*",
+    "phpunit/phpunit": "7.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Konfirm\\ISOFlag\\": "src/"
+    }
+  }
+}
