@@ -1,5 +1,5 @@
 {
-  "name": "konfirm/iso_flag",
+  "name": "konfirm/isoflag",
   "version": "1.0.0",
   "description": "Convert ISO3166 region codes to their unicode (emoji) flag",
   "minimum-stability": "stable",
