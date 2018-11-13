@@ -352,11 +352,8 @@ class Flag
      */
     protected function getUnicode()
     {
-        $table = array_map('chr', range(65, 90));
-        $offset = 0x1f1e6;
-
-        return array_map(function ($char) use ($table, $offset) {
-            return $offset + array_search($char, $table);
+        return array_map(function($char) {
+            return 0x1f1e6 + (ord($char) - 65);
         }, str_split(strtoupper($this->iso)));
     }
 }
